@@ -7,7 +7,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       
       <body>
-        <Providers></Providers>
+        <Providers>
         {/* <Head /> */}
         <Header />
 
@@ -15,9 +15,10 @@ export default function RootLayout({ children }) {
 
 
         {/*SearchBox */}
-
-
-        {children}</body>
+        {children}
+        {children}
+        </Providers>
+        </body>
     </html>
   )
 }
